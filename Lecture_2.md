@@ -52,10 +52,10 @@ all:
 clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 ```
-7. to make the file, use make command at terminal
+7. to make the file, use `make` command at terminal
 
-8. Use sudo insmod hello_kernel.ko to add kernel module to kernel. Use sudo dmesg to see messages on kernel console
+8. Use `sudo insmod hello_kernel.ko` to add kernel module to kernel. Use `sudo dmesg` to see messages on kernel console
 
-9. Use tail /var/log/syslog to see last 10 entries in syslog
+9. Use `tail /var/log/syslog` to see last 10 entries in syslog
 
-10. use sudo rmmod hello_kernel to remove module from the kernel.
+10. use `sudo rmmod hello_kernel` to remove module from the kernel.
