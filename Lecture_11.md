@@ -1,4 +1,4 @@
-Detecting Page Faults
+# Detecting Page Faults
 
 The code below detects and counts pagefaults
 ```
